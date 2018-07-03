@@ -1,0 +1,37 @@
+{
+  "name": "12-express-middleware",
+  "version": "1.0.0",
+  "description": "![cf](https://i.imgur.com/7v5ASc8.png) 12: Express Middleware ======",
+  "main": "index.js",
+  "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^8.2.5",
+    "babel-register": "^6.26.0",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "directory": "^0.1.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jest": "^23.2.0",
+    "morgan": "^1.9.0",
+    "require": "^2.4.20",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test-watch": "jest --watchAll",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamarushin/12-express-middleware.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamarushin/12-express-middleware/issues"
+  },
+  "homepage": "https://github.com/tamarushin/12-express-middleware#readme"
+}
